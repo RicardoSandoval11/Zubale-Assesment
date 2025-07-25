@@ -1,8 +1,19 @@
-# Welcome to your Expo app 👋
+# Instagram Clone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Application to fill the requirements of the tech assesment:
 
-## Get started
+The main screen have the publications and required interactions. The urls returned by the provided endpoint return an error, so I put a fallback image for avatars and publication image. The designs that I used to implement this application and many of the mock images that you see on it were taken from the next figma design: https://www.figma.com/community/file/874574625832268971
+
+![WhatsApp Image 2025-07-24 at 6 27 33 PM](https://github.com/user-attachments/assets/1bb99068-84c2-4e9c-a021-b9190b952439)
+
+![WhatsApp Image 2025-07-24 at 6 27 32 PM (1)](https://github.com/user-attachments/assets/dad88bfb-206c-426e-8362-a7b754ee515c)
+
+![WhatsApp Image 2025-07-24 at 6 27 32 PM](https://github.com/user-attachments/assets/d8bac4cd-4664-4b49-8534-c634eea67434)
+
+
+## Steps to run the applications
+
+This is a react native project created with explo, so the steps to run the application are the following:
 
 1. Install dependencies
 
@@ -15,36 +26,3 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
