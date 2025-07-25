@@ -15,13 +15,24 @@ The main screen have the publications and required interactions. The urls return
 
 This is a react native project created with explo, so the steps to run the application are the following:
 
-1. Install dependencies
+1. Clone the repository
+
+```bash
+git clone https://github.com/RicardoSandoval11/Zubale-Assesment.git
+```
+
+2. Go to the project folder
+```bash
+cd Zubale-Assesment
+```
+
+3. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+4. Start the app
 
    ```bash
    npx expo start
